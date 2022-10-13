@@ -7,7 +7,7 @@
 # Blog: https://mlapp.cn
 #=================================================
 
-# Set default theme to luci-theme-argon
+# Set default theme to luci-theme-argonne
 uci set luci.main.mediaurlbase='/luci-static/argonne'
 
 # 禁用ipv6前缀
