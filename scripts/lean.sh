@@ -35,7 +35,7 @@ rm -rf openwrt-package/luci-app-verysync
 # alist
 git clone https://github.com/sbwml/luci-app-alist
 pushd luci-app-alist
-git reset --hard 66a84e7a8dd0ca02cc0bad7b2258e4fb89d686f0
+git reset --hard ee858b79c07af9994e4476dc7c08593c4610485d
 popd
 
 # Add luci-app-adguardhome
