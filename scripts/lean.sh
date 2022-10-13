@@ -23,9 +23,6 @@ svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/pa
 rm -rf package/kernel/mwlwifi
 svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/mwlwifi package/kernel/mwlwifi
 
-# alist
-git clone https://github.com/sbwml/luci-app-alist package/alist
-
 # Clone community packages
 mkdir package/community
 pushd package/community
@@ -34,6 +31,12 @@ pushd package/community
 git clone --depth=1 https://github.com/Lienol/openwrt-package
 rm -rf openwrt-package/verysync
 rm -rf openwrt-package/luci-app-verysync
+
+# alist
+git clone https://github.com/sbwml/luci-app-alist
+pushd luci-app-alist
+git reset --hard 66a84e7a8dd0ca02cc0bad7b2258e4fb89d686f0
+popd
 
 # Add luci-app-adguardhome
 svn co https://github.com/Lienol/openwrt-package/branches/other/luci-app-adguardhome
