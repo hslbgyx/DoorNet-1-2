@@ -150,4 +150,5 @@ sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_genera
 # 删除定时coremark
 rm -rf ./customfeeds/packages/utils/coremark
 svn co https://github.com/DHDAXCW/packages/trunk/utils/coremark customfeeds/packages/utils/coremark
-sed -i 's/5.4/15/g' target/linux/rockchip/Makefile
+# Test kernel 5.15
+sed -i 's/5.4/5.15/g' ./target/linux/rockchip/Makefile
