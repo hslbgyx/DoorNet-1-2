@@ -15,13 +15,7 @@ sed -i 's,1608,1800,g' feeds/luci/applications/luci-app-cpufreq/root/etc/uci-def
 sed -i 's,2016,2208,g' feeds/luci/applications/luci-app-cpufreq/root/etc/uci-defaults/10-cpufreq
 sed -i 's,1512,1608,g' feeds/luci/applications/luci-app-cpufreq/root/etc/uci-defaults/10-cpufreq
 # 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
-#rm -rf ./target/linux/rockchip/armv8/base-files/etc/hotplug.d/usb
-rm -rf package/kernel/mac80211
-#svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/mac80211 package/kernel/mac80211
-rm -rf package/kernel/rtl8821cu
-#svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/rtl8821cu package/kernel/rtl8821cu
-#rm -rf package/kernel/mwlwifi
-#svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-18.06-k5.4/package/kernel/mwlwifi package/kernel/mwlwifi
+rm -rf ./target/linux/rockchip/armv8/base-files/etc/hotplug.d/usb
 
 # alist
 git clone https://github.com/sbwml/luci-app-alist package/alist
@@ -151,4 +145,4 @@ sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_genera
 rm -rf ./customfeeds/packages/utils/coremark
 svn co https://github.com/DHDAXCW/packages/trunk/utils/coremark customfeeds/packages/utils/coremark
 # Test kernel 5.15
-sed -i 's/5.4/6.0/g' ./target/linux/rockchip/Makefile
+#sed -i 's/5.4/6.0/g' ./target/linux/rockchip/Makefile
