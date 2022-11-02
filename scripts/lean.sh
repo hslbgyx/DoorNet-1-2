@@ -146,4 +146,3 @@ rm -rf ./customfeeds/packages/utils/coremark
 svn co https://github.com/DHDAXCW/packages/trunk/utils/coremark customfeeds/packages/utils/coremark
 # Test kernel 5.15
 #sed -i 's/5.4/6.0/g' ./target/linux/rockchip/Makefile
-echo -e "   OpenWrt firmware built on "$(date +%Y.%m.%d)"\n -------------------------------------------------------------" >> package/base-files/files/etc/banner
