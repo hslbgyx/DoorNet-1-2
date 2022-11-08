@@ -8,7 +8,7 @@
 #=================================================
 
 # Set default theme to luci-theme-argonne
-uci set luci.main.mediaurlbase='/luci-static/argonne'
+uci set luci.main.mediaurlbase='/luci-static/argon'
 
 # 禁用ipv6前缀
 sed -i 's/^[^#].*option ula/#&/' /etc/config/network
