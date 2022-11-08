@@ -15,7 +15,7 @@
 ### 基于lede openwrt kernel 5.4内核固件下载
 - https://github.com/DHDAXCW/doornet2-5.4/releases
 
-# [EMMC刷机方法](https://github.com/DHDAXCW/DoorNet2/blob/main/emmc.md)
+# [EMMC刷机方法](https://github.com/DHDAXCW/DoorNet2/blob/mere/emmc.md)
 
 # 系统截图
 ![image](https://user-images.githubusercontent.com/74764072/183226910-093c471a-5213-4a59-ab9d-63b85f650afe.png)
