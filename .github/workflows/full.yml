@@ -158,6 +158,8 @@ jobs:
         rm -rf openwrt-rockchip-armv8-embedfire_doornet2-rootfs.tar.gz
         rm -rf config.buildinfo
         rm -rf packages-server.zip
+        mv openwrt-rockchip-armv8-embedfire_doornet1-ext4-sysupgrade.img.gz full-embedfire_doornet1-ext4-sysupgrade.img.gz
+        mv openwrt-rockchip-armv8-embedfire_doornet1-squashfs-sysupgrade.img.gz full-embedfire_doornet1-squashfs-sysupgrade.img.gz
         mv openwrt-rockchip-armv8-embedfire_doornet2-ext4-sysupgrade.img.gz full-embedfire_doornet2-ext4-sysupgrade.img.gz
         mv openwrt-rockchip-armv8-embedfire_doornet2-squashfs-sysupgrade.img.gz full-embedfire_doornet2-squashfs-sysupgrade.img.gz
         popd
